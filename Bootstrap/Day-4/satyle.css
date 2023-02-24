@@ -1,0 +1,21 @@
+.para-text{
+    padding: 9px 368px;
+}
+.heading{
+    padding-top: 20px;
+}
+.para-centent{
+    padding: 0px 111px;
+}
+.card-body-equely{
+    display: flex;
+    align-items: center;
+    height: 500px;   
+}
+.card-body-first{
+    height: 219px;
+}
+
+.row-responsive{
+    display: flex;
+}

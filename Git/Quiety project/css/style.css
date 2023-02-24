@@ -1,0 +1,21 @@
+.navbar{
+    justify-content: left;
+}
+/* section 2 */
+.para-text{
+    margin-top: 169px;
+}
+
+.fa-solid {
+    font-size: 170px;
+    color: blue;
+    margin-top: -153px;
+}
+.img-banner{
+    margin-bottom: 74px;
+}
+/* section-3 */
+.web-img{
+    width: 600px;
+    height: 600px;
+}

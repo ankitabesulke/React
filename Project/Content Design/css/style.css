@@ -1,0 +1,191 @@
+body{
+    background-color: #8080801c;
+}
+/*first section css*/
+.col-6{
+    margin-left: 209px;
+}
+.img-1{
+    margin-top: 90px;
+    margin-bottom: 106px;
+    
+}
+.test-1{
+    font-size: 90px;
+    margin-top: 50px;
+}
+h4{
+    font-size: 35px;
+}
+button{
+    font-size: 20px;
+    color: #efefef;
+    font-weight: 700;
+    padding: 12px;
+    background-color: #b71c00;
+    border-color:#b71c00;
+    text-align: center;
+    border-style: hidden; 
+}
+.img-2{
+    width: 600px;
+    margin-top: 88px;
+   
+    
+}
+.container{
+    display: flex;
+
+    /*second section css*/
+}
+.img-3{
+    margin-left: 129px;
+    margin-top: 20px;
+}
+.col-12{
+    margin-bottom: 111px;
+}
+
+.nav{
+    display: flex;
+   
+    background-color: #a72a2a;
+}
+    
+/*css for brger img*/
+.img-6{
+    width: 607px;
+    height: 800px;
+    margin-left: 134px;
+}
+#title{
+    margin-left: 142px;
+    margin-top: 257px;
+    color: #efefef;
+    font-weight: 700;
+    font-size: 70px;
+    
+    
+}
+#div{
+    margin-left: 142px;
+    font-size: 25px;
+    color: #efefef;
+    font-weight: 700;
+    
+}
+.btn-secondary{
+    margin-left: 142px;
+    margin-top: 56px;
+    text-decoration-line: none;
+    color: #efefef;
+    font-weight: 700;
+    font-style: normal;
+    background-color: black;
+    
+}
+/*third section css*/
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: -82px;
+    
+}
+h2{
+    text-align: center;
+    
+    margin-top: -57px;
+}
+.third-section{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin-left: 138px;
+    margin-top: 76px;
+
+    text-decoration-line: none;
+    color: #000000;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
+    
+}
+.third-section div{
+    background-color: white;
+}
+.one-d{
+    margin-right: 248px;
+    padding: 47px;
+    margin-bottom: 50px;
+}
+.two-d{
+    margin-right: 249px;
+    margin-bottom: 50px;
+}
+.three-d{
+    margin-bottom: 50px;
+}
+#btn-third{
+    margin-left: 689px;
+    
+    margin-bottom: 243px
+}
+/* fourth section*/
+.fourth-page{
+    
+    background-color: #b71c00;
+    height: 500px;
+    margin-top: -16ch;
+    color: white;
+    font-size: 25px;
+
+
+
+}
+.container-four{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 20px; 
+    color: white;
+    margin-top: 109px;
+
+}
+.root{
+    background-color: #000000;
+    display: flex;
+    color: white;
+
+}
+.responsiv{
+    margin-right: 419px;
+font-size: 20px;
+padding: 139px;
+justify-content: space-around;
+margin-bottom: 20px;
+    
+}
+.last-img{
+    width: 800px;
+    height: 700px;
+    margin-bottom: 40px;
+    margin-left: 137px;
+}
+span{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+   
+    
+
+
+
+

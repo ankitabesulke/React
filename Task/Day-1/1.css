@@ -1,0 +1,21 @@
+h1{
+text-align: center;
+color: blue;
+
+}
+h6{
+    text-align: center;
+    color: brown;
+    font-size: medium;
+}
+#subtitle{
+    color: blueviolet;
+}
+img{
+    padding-left: 14cm;
+    width: 300px;
+}
+div{
+    color: brown;
+    text-align: justify;
+}

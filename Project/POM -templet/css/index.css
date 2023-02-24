@@ -1,0 +1,73 @@
+/* Header css */
+.fixed{
+    position: fixed;
+}
+header{
+    background-color: #262626;
+    color: aliceblue;
+}
+
+.market{
+color: green;
+}
+.btn-one{
+    background-color: #3eb93e;
+    color: aliceblue;
+    margin-left: 1349px;
+}
+/* fluid css*/
+.first-row{
+    background-color: #262626e0;
+    color: aliceblue; 
+
+}
+#img-first{
+    padding-left: 55px;
+}
+#text{
+    padding-left: 40px;
+}
+.last-col{
+    background: #00c8aa;
+    margin-bottom: -7px;
+    margin-top: 5px;
+    margin-top: -9px;  
+}
+/* section css */
+.top-part{
+    margin-top: -2px;
+    background: url(https://themehelite.com/themeforest/1-base-preview/header_bg.jpg) top;
+    background-size: cover;  
+    padding: 351px 0px;
+    height: 300px;
+}
+.container{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: -130px;
+    
+}
+.fs{
+    font-size: 90px;
+    line-height: 1;
+    font-weight: 100;
+    margin-bottom: 31px;
+}
+/* section-2 */
+.third-part{
+    margin-bottom: 218px;
+}
+.row-second{
+    color: black;
+}
+/* footer */
+footer{
+    margin-top: 118px;
+    text-align: center;
+    background: #2D3037;
+    padding: 50px 0;
+    color: white;
+    font-size: medium;
+}
+

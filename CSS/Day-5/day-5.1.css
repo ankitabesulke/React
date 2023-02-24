@@ -1,0 +1,14 @@
+.Position-fixed-test{
+    position: fixed;
+    background-color: blue;
+    
+    width: inherit;
+}
+
+.position-sticky-test{
+    position: sticky;
+    border: 1px solid red;
+    background-color: darkgreen;
+    width: 300px;
+    top: 0px;
+}

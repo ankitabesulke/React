@@ -1,0 +1,9 @@
+Git process
+
+1] clone
+           -  git clone url 
+
+ 2] cd clone folder 
+            - cd folder name (e.g- React-16)   using tab button 
+
+ 3] Merge branch 'main' of https://github.com/CodeFisrt/React-16 into ankita-dev                  

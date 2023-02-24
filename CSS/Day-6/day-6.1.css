@@ -1,0 +1,8 @@
+.ads-test + p{
+    background-color: blue;
+
+}
+
+.gs-test ~ p{
+    background-color: chartreuse;
+}

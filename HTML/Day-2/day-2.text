@@ -1,0 +1,33 @@
+1]tools install
+2]how to create file
+3]how to run file
+Syntax
+(code/tag/element/content/code/tag/element)
+ 
+ <>
+
+ <head>
+ <!-- its meta information about the page -->
+           <!--
+           1]Meta tag
+           2]title= use for file title
+           3]css = style, design
+           4]js= java scripts
+           5]favicon= favicon is a small image displayed next to  the page title in the browser tab
+           6]scripts= contains script statements, attribute,validation, dynamic changes of content
+           7]anyalatical code=
+           -->
+           1] Meta tags=
+         1.1)  <meta charset="UTF-8">
+  <!-- sprcial charactor-->
+           1.2]meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- browser supportor-->
+           1.3]<meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <!-- width, initital scale 
+           2] <link rel="styleseet" href="style.css">
+           <!-- extra css file join into html-->
+           3] <link rel="shortcut icon" href="img-1.page" type="image/x-icon">
+  <!-- <link rel="shortcut icon" href="favicon.icon" type="image/x-icon"> -->
+           4]<body>
+  <!-- all web content inside body -->
+  

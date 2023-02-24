@@ -1,0 +1,36 @@
+.bg-color{
+background-color: #06040447;
+}
+
+.header{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+h4{
+    margin: 0px;
+}
+.nav{
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.footer{
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.main{
+    display: flex;
+}
+.content{
+    width: 20%;
+    text-align: center;
+    padding: 100px 0px;
+}
+.large-content{
+    width: 60%;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 100px 0px;
+}

@@ -1,0 +1,61 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+
+/* this is smallest min-width (for mobile)*/
+@media (min-width: 320px) {
+    .row-responsive{
+        display: flex;
+    }
+    .heading { 
+           text-align: start;
+           padding-top: 16px;
+          margin-left: 105px;
+           
+     }
+     .text-nav{
+        
+        align-content: center;
+     }
+     .para-text {
+        padding: 9px 43px;
+    }
+    .col-first {
+        justify-content: center;
+    }
+    .card-body-first  {
+        height: 223px;
+    }
+    .card-body{
+        height: 223px; 
+    }
+    .para-centent {
+        padding: 0px 45px;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   
+}
+
+/*// Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+   
+}
