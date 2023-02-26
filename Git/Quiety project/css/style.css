@@ -6,11 +6,6 @@
     margin-top: 169px;
 }
 
-.fa-solid {
-    font-size: 170px;
-    color: blue;
-    margin-top: -153px;
-}
 .img-banner{
     margin-bottom: 74px;
 }
@@ -18,4 +13,71 @@
 .web-img{
     width: 600px;
     height: 600px;
+}
+.sd{
+    color: blue;
+}
+.software {
+    margin-top: 56px;
+}
+.pie-chart{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 10%);
+    padding: 15px;
+}
+.icon-check{
+    font-size: 20px;
+    color: skyblue;
+}
+/* section 4 */
+.fourth-section{
+    background-color: #0b163f;
+    color: #fff;
+    padding-bottom: 71px;
+}
+.dev{
+    padding-top: 118px;
+}
+.social-symbol{
+    margin-left: 498px;
+}
+/* section-5 */
+.section-fifth{
+    margin-bottom: 136px;
+}
+.user{
+    color: blue;
+}
+.carrier{
+    color: darkorchid;
+}
+/* section-6 */
+.user-img{
+    width: 50px;
+    height: 50px;
+}
+.icon-img{
+    border: 1px solid;
+    border-color: skyblue;
+    padding: 27px;
+}
+/* section-7 */
+.card{
+    background-color: red;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.card-title{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.card-text{
+    color: white;
+    
 }

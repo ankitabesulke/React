@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Oprator</h1> <br>
+    <h2>Comparison Oprator</h2>
+
+    <script>
+        // Comparison Oprator
+        var number1 = 12;
+        var number2 = 13;
+        var number3 = 9;
+        var number4 = 12;
+
+        
+        console.log(number1 > number2);
+        console.log(number3 < number2);
+        console.log(number1 <=number4);
+        console.log(number1 <=number3);
+        console.log("compare numbere =" +(number1 == number4)); // compaire number
+        console.log("compare numbere =" +(number3 == number4));
+        console.log("compare numbere =" +(number1 != number4));  //not equal
+
+        var student1 = "ankita";
+        var student2 = "sayli";
+        var student3 = "ankita";
+
+        console.log("Compare =" + (student1 == student2));  // compaire name
+        console.log("Compare=" + (student1 == student3));
+        console.log("compare =" + (student1 != student3))  // not equal
+
+        var rollno1 = 123;
+        var rollno2 = "123";
+
+        console.log("with ==" + (rollno1 == rollno2));      // == only check values
+        console.log("with ===" + (rollno1 === rollno2));  // === check values + datatype
+
+        var student1 = "ankita1";
+        var student2 = "ankita";
+        var student3 = "ankita";
+        var rollno1 = 123;
+        var rollno2 = "123";
+
+        console.log("&& =" +((student1 == student2 ) && (rollno1 == rollno2)));   
+        console.log("&& =" +((student3 == student2 ) && (rollno1 == rollno2)));
+        console.log("||=" +((student1 == student2 ) ||  (rollno1 == rollno2)));
+
+
+    </script>
+</body>
+</html>
