@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Acsses Element </h1>
+    
+    <script>
+       var  personDetails= {                //object
+          
+        name: "ankita",
+        address: "codefirst"
+       }
+       // object convert in string
+       document.write(JSON.stringify(personDetails)+"<br /> <br />");
+      
+
+       var bankDetails ={
+        name: "ankita",
+        surname: "besulake",
+        customerid: 12345,
+        address: "solapur",
+        isLive: true,
+       }
+       document.write(JSON.stringify(bankDetails));
+
+       // string convert in object
+       var  personDetails= {               
+          
+          name: "ankita",
+          address: "codefirst",
+         }
+         document.write(JSON.parse(personDetails)+"<br /> <br />");
+    </script>
+</body>
+</html>

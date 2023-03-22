@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3> Object with using for loop</h3>
+
+  <script>
+
+    // object with using for loop
+
+    var menu = {
+                name: "vdapav",
+                color: "brown",
+                test: "yummy",
+                rate: 5
+              }
+              for (var keys in menu ){
+               // console.log(keys);
+               
+
+                console.log("values>>>>>",menu["name"]);
+                console.log("values>>>>>",menu["color"]);
+                console.log("values>>>>>",menu["test"]);
+                console.log("values>>>>>",menu["rate"]);
+
+                document.write(keys+"_______"+menu[keys]+"<br />");
+              }
+  </script>
+</body>
+</html>

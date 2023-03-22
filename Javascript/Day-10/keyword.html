@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // let keyword
+        
+        let greet = "outsidegreet"
+        function callgreet(){
+
+            let greet = "insidegreet"
+             console.log(greet);
+        }
+        callgreet();
+        console.log(greet);
+
+        // let with if block
+
+        let greet2 = "outsidegreet of if block"
+        if(true){
+                
+            let greet2 = "insidegreet of if block"
+            console.log(greet2)
+        }
+         console.log(greet2);
+
+         // var keyword
+         var name = "outside of var names"
+         function callName () {
+             
+            var name = "inside function of block var name";
+            console.log("var>>>>>>>>>>>",name);
+         }
+         console.log("var>>>>>>>>>>>",name);
+
+         // var keyword with if block
+
+         var cars = "BMW"
+         if (true){
+
+            var cars = "THAR"
+            console.log("if var.....",cars);
+         }
+         console.log("if outside.....",cars);
+         
+
+
+
+
+    </script>
+</body>
+</html>

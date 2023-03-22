@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Fuction how to creat</h2>
+
+    <button>got person</button>
+
+    <script>
+        var person = "codefirst";
+        console.log(person);
+
+        // types of fuction
+
+       // 1] simple function
+       // 2] function with return something
+       // 3] function with parameters
+       // 4] Arrow function
+        
+       // function declaration
+
+       // ex 1   simple fuction
+       function getperson(){     // function
+
+        var person= "codefirst";
+        console.log(person+"<br />")
+       }
+       getperson();           // function call 
+
+       // ex 2
+       function sumOfTwoVarible(){
+
+        var a = 6;
+        var b = 8;
+        document.write(a + b+"<br />");
+        console.log(a+b);
+       }
+       sumOfTwoVarible();
+
+       // ex 3     function with return something
+
+       function addingvalues(){
+        var a = 10;
+        var b = 20;
+        
+        return(a + b)
+       }
+
+       var output= addingvalues()
+       console.log(output);
+
+       // ex 4     NON   not a number
+
+       var a = 1;
+       var b = 2;
+
+       function addingvalues(a,b){
+
+        var c = a + b;
+        console.log(c)
+       }
+       addingvalues(a,b);
+
+       // ex 4
+
+       var firstnumber = 23;
+       var secondnumber = 43;
+
+       // adding perform
+       function adding(first,second){
+        var total = firstnumber+secondnumber
+        console.log(total)
+       }
+        
+       // multiplication perform
+       function multiplicationg(first,second){
+        var totalofmul = firstnumber*secondnumber
+        console.log(totalofmul)
+       }
+
+       // substraction perform 
+       function substraction(first,second){
+        var sub = firstnumber-secondnumber
+        console.log(sub)
+       }
+         
+       adding(firstnumber,secondnumber);
+       multiplicationg(firstnumber,secondnumber);
+       substraction(firstnumber,secondnumber);
+
+       
+        
+       
+
+
+
+
+
+
+        
+    </script>
+</body>
+</html>

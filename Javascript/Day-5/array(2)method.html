@@ -10,41 +10,39 @@
     <h1>Array Methods</h1>
 
     <script>
-        var cars=["volvo","tata","maruti","bmw",];
-
-        // addding new value to array >>>>>> push();
-        cars.push("mahindra");
+       
+        var cars=["volvo","tata","maruti","bmw",];      // addding new value to array >>>>>> push();
+         cars.push("mahindra");
         document.write(cars+"<br />");
 
-        // removing last element of array >>>>> pop();
-        cars.pop()
+         cars.pop();                  // removing last element of array >>>>> pop();
         document.write(cars+"<br />");
 
-        // removing first element to array >>>> shift();
-        cars.shift()
+        
+        cars.shift();                     // removing first element to array >>>> shift();
         document.write(cars+"<br />");
 
-        // adding first element to array >>>> unshift();
-        cars.unshift("mahindra");
+        
+        cars.unshift("mahindra");     //adding first element to array >>>> unshift();
         document.write(cars+"<br />");
 
-        // Indexing and Length
-        var cars2=["vovlvo","tata","maruti","bmw"];
+       
+        var cars2=["vovlvo","tata","maruti","bmw"];       // Indexing and Length
         indexing= 3   // indexing start with 0
         length= 4       // length start with 1
 
         console.log(cars2.length);
        
 
-        // Array Joining
-        cars3=["audi"];
+       
+        cars3=["audi"];             // Array Joining
         cars4=[123];
         var allcars=cars.concat(cars2,cars3,cars4);
         console.log(allcars);
 
         // delete items in array and update items in array
           
-        // slice method
+        // splice method
         var cars6=["thar","fortuner","nexon","punch"];   
         console.log(cars6);
 
@@ -52,7 +50,7 @@
         console.log(cars6);
 
         // slice method
-        var colors=["red","pink","white","black"]
+        var colors=["red","pink","white","black"];
         console.log("colors>>>>>>",colors);
         var colordata=colors.slice(0,2);
         console.log("colordata>>>>>>",colordata);

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> acsses secon tag</h3>
+      <p> I m leader</p>
+    <p id="para"> codefirst accademy</p>
+    <p id="color"> codefirst class</p>
+    <p class="color">codefirst institution<p>
+        <h1 id="headId"></h1>
+    
+
+     <script>
+
+       var allParaElement = document.getElementsByTagName("p")                       // Element acsses
+       console.log(allParaElement);
+       console.log(allParaElement[1]);
+                                                                                      // Id acsses
+        var allParaElement2 = document.getElementById("para");
+        console.log(allParaElement2);
+
+        var getColorElement = document.getElementsByClassName("color");                // Class acsse
+        console.log("class>>>>",getColorElement);
+
+        var QuerysElement= document.querySelectorAll("p.color");                         // QuerysElement
+        console.log("QuerysElement>>>>",QuerysElement);
+
+        document.getElementById("headId").innerHTML= "this is my head js "
+          
+       
+         console.log(document.title);                                                    // tag acsses
+         console.log(document.head);
+           
+
+         
+         document.getElementById("para").style.color="red"                                // adding css through js
+     </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="headId"> Acsses Element</h1>
+
+    <p class="para"> public owns hospital</p>
+    <p id="non"> non profit hospital</p>
+    <p> for profit hospital</p>
+
+    <script>
+
+        var paraElement = document.getElementsByTagName("p");        // acsses element name
+        paraElement.value = "hospital"
+        paraElement.name = "sarswati hospital"
+        console.log(paraElement);
+         
+        var paraElement= document.getElementById("headId");         // acsses id
+        console.log(paraElement);
+         
+        var paraElement= document.getElementsByClassName("para");   // acsses class
+        console.log(paraElement);
+
+        document.getElementById("headId").style.color= "green"     // css with js
+
+        var hElement = document.getElementsByName("h3")
+        hElement.values = "doctor"
+        hElement.name = "aram"
+        console.log(hElement);                                       // external element 
+
+        document.getElementById("non").innerHTML= "this is my head js "       // html tag from js
+        
+        console.log(document.title);
+        console.log(document.body);                        //  acsses tag
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> creating new value in existing object</h2>
+
+    <script>
+         var myprofile = {
+            name: "Ankita",
+            surname: "Besulake",
+            contact: 7558489988,
+            address: "Virvade",
+            gender: "female",
+            favcolor: ["black","white","peech","skyblue"],
+            islive: true
+            
+         }
+        
+
+         document.write(myprofile.name+"<br />")
+         document.write(myprofile.surname+"<br />")
+         document.write(myprofile.contact+"<br />")
+         document.write(myprofile.address+"<br />")
+         document.write(myprofile.gender+"<br />")
+         document.write(myprofile.favcolor+"<br />")
+         document.write(myprofile.islive+"<br />")
+
+         // update new value in existing object
+         
+         myprofile.name="tanu"
+         document.write("name>>>>>>"+myprofile.name+"<br />")
+          
+
+         // creating new element in existing object
+         myprofile.age= 25;
+         document.write("age>>>>>>"+myprofile.age+"<br />")
+          
+
+         // delete value in existing object
+         delete myprofile.contact;
+         document.write("contact>>>>>>>>>."+myprofile.contact)
+
+    </script>
+</body>
+</html>

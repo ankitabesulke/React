@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> localStorage</h3>
+
+    <script>
+       
+       var trees= ["ashok","bamboo","pipal"];
+       localStorage.setItem("treedata", trees);
+     const getDatafromLs=localStorage.getItem("treedata");
+       document.write(getDatafromLs)
+       localStorage.removeItem("treedata");
+
+      var colors=["red","black","white","blue"];
+      localStorage.setItem("colordata", colors);
+    //  const getDatafromLs= localStorage.getItem("colordata");
+      document.write(getDatafromLs)
+
+      var cars=["audi","fortuner","thar","swifty"];
+      localStorage.setItem("carsdata", cars);
+     // const getDatafromLs= localStorage.getItem("carsdata")
+      document.write(getDatafromLs)
+
+    </script>
+</body>
+</html>

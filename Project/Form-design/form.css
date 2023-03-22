@@ -1,0 +1,49 @@
+/* page */
+.page{
+    background-color: #8080800a;
+}
+.container{
+    background-color: white;
+}
+/* row 1 */
+.fa-solid {
+    color: blue;
+}
+.general{
+    margin-right: 248px;
+    
+}
+#icon{
+    background-color: grey;
+    width: 60px;
+    height: 80px;
+    margin-right: 273px; 
+}
+/* nav bar */
+.nav-bar{
+    margin-left: 159px;
+}
+.nav-span{
+    width: 757px;
+    }
+
+.delete-icon{
+    background-color: #8080803d;
+}    
+
+.card-body{
+    background-color: #8080800a;
+}
+.section-img {
+    margin-right: -12px;
+}
+.para{
+    margin-left: 215px;
+}
+.footer{
+    align-items: center;
+    margin-left: 212px;
+}
+.main-row{
+    display: flex;
+}

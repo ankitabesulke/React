@@ -10,6 +10,7 @@ var c = null;
 var d = false;
 var e = undefined;
 
+console.log(typeof(a));
 console.log(typeof(b));
 console.log(typeof(c));
 console.log(typeof(e));

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> Arrow function</h3>
+
+    <script>
+
+      // arrow function
+
+      // ex 1
+
+      var adding =() =>{
+        var a = 5;
+        var b = 7;
+
+       console.log(a*b);
+      }
+       
+      // ex 2
+
+      function tellName(){
+        return this.name;
+     }
+
+     var sayname=()=>{
+        return this.name;
+     }
+
+     var person = {
+        name: "ankita",
+        age: 20,
+        favfood: ["batterpannir", "palakpannir"],
+        isfemale: true,
+        tellName,
+        sayname,
+     }
+
+     console.log(person.name);
+     console.log(person.age);
+     console.log(person.tellName());
+     console.log(person.sayname());
+
+
+    </script>
+</body>
+</html>

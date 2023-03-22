@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- IMP-->
+    <h2>Object with using for loop</h2>
+
+    <script>  
+        // Object with using for loop always use "in" word
+
+        var codefirst = {
+            name: "codefirst",
+            batch: ["anguler","database","react","java"],
+            subject: "codding",
+            islive: true,
+            contact: 4572782891,
+          }
+          for (var keys in codefirst){
+            console.log(keys);
+            document.write(keys+"<br />");
+
+            console.log("value >>>",codefirst["name"])
+            console.log("value >>>",codefirst["batch"])
+            console.log("value >>>",codefirst["subject"])
+            console.log("value >>>",codefirst["islive"])
+            console.log("value >>>",codefirst["contact"])
+
+            document.write(keys+"_______"+codefirst[keys])
+          }
+    </script>
+</body>
+</html>
