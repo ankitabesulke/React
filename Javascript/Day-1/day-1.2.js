@@ -7,3 +7,4 @@ var d = null;
 var c = undefined;
 
 console.log(typeof(d));
+

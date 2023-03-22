@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Array Methods</h1>
+
+    <script>
+        var cars=["volvo","tata","maruti","bmw",];
+
+        // addding new value to array >>>>>> push();
+        cars.push("mahindra");
+        document.write(cars+"<br />");
+
+        // removing last element of array >>>>> pop();
+        cars.pop()
+        document.write(cars+"<br />");
+
+        // removing first element to array >>>> shift();
+        cars.shift()
+        document.write(cars+"<br />");
+
+        // adding first element to array >>>> unshift();
+        cars.unshift("mahindra");
+        document.write(cars+"<br />");
+
+        // Indexing and Length
+        var cars2=["vovlvo","tata","maruti","bmw"];
+        indexing= 3   // indexing start with 0
+        length= 4       // length start with 1
+
+        console.log(cars2.length);
+       
+
+        // Array Joining
+        cars3=["audi"];
+        cars4=[123];
+        var allcars=cars.concat(cars2,cars3,cars4);
+        console.log(allcars);
+
+        // delete items in array and update items in array
+          
+        // slice method
+        var cars6=["thar","fortuner","nexon","punch"];   
+        console.log(cars6);
+
+        cars6.splice(2,1,"audi");  // kahase , kitane
+        console.log(cars6);
+
+        // slice method
+        var colors=["red","pink","white","black"]
+        console.log("colors>>>>>>",colors);
+        var colordata=colors.slice(0,2);
+        console.log("colordata>>>>>>",colordata);
+
+
+         // sort ( assending & desending values)
+
+         var myNumber=[1 , 7 , 9, 4, 3,5];
+         console.log(myNumber.sort());
+         console.log(myNumber.reverse());
+
+
+
+        </script>
+    
+</body>
+</html>
